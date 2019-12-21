@@ -1,0 +1,58 @@
+@media (max-width : 1200px){
+    #Portfolio  .portfolio-divs{
+        flex: 0 0 33.33%;
+    }
+    #Price .price-holder .price-deal{
+        flex:0 0 30%;
+    }
+}
+@media (max-width : 900px){
+    #Portfolio  .portfolio-divs{
+        flex: 0 0 50%;
+    }
+    #Price .price-holder .price-deal{
+        flex:0 0 100%;
+        margin-bottom: 50px;
+    }
+    #contact .contacts .contact-form{
+        flex:0 0 100%;
+    }
+    #contact .contacts .contact-info{
+        margin-top: 20px;
+        flex:0 0 100%;
+    } 
+    #service .services .service-card {
+        flex: 0 0 100%;
+        margin-top: 100px;
+        
+    }
+    #service .services .service-card .icon{
+        left: calc(47% - 15px);
+    }
+}
+@media (max-width : 768px){
+    #Portfolio  .portfolio-divs{
+        flex: 0 0 100%;
+    }
+    #Price .price-holder .price-deal{
+        flex:0 0 100%;
+        margin-bottom: 50px;
+
+    }
+    #contact .contacts .contact-form{
+        flex:0 0 100%;
+    }
+    #contact .contacts .contact-info{
+        flex:0 0 100%;
+        margin-top: 20px;
+
+    }
+    #service .services .service-card {
+        flex: 0 0 100%;
+        margin-top: 100px;
+    }
+    #service .services .service-card .icon{
+        left: calc(47% - 15px);
+
+    }
+}
