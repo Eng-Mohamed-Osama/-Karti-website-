@@ -1,2 +1,2 @@
 # -Karti-website--
- This is a static website template using HTML and CSS
+ This is a dynamic fully responsive website template using HTML, CSS, and Javascript
