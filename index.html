@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -59,22 +60,22 @@
                     <div class="creative-cards col col-lg-6 col-12 ">
                         <div class="row">
                             <div class="trans" style="transform: translateY(15px);width: 48%;">
-                                <div class="card  col">
+                                <div class="card  col" data-aos="fade-right" data-aos-duration="600">
                                     <i class="fa fa-car about-icon" aria-hidden="true"></i>
                                     <h4>Bootstrap 3.0.0</h4>
                                 </div>
-                                <div class="card ">
-                                    <i class="fa fa-pencil about-icon" aria-hidden="true"></i>
+                                <div class="card " data-aos="fade-up-right" data-aos-duration="600">
+                                    <i class="fa fa-pencil about-icon"  aria-hidden="true"></i>
                                     <h4>Theme Support</h4>
                                 </div>
                             </div>
                             <div class="trans" style="width: 48%;">
 
-                                <div class="card col ">
+                                <div class="card col " data-aos="fade-down-left" data-aos-duration="600">
                                     <i class="fa fa-glass about-icon" aria-hidden="true"></i>
                                     <h4>Responsive Layout</h4>
                                 </div>
-                                <div class="card col ">
+                                <div class="card col " data-aos="fade-left" data-aos-duration="600">
                                     <i class="fa fa-building about-icon" aria-hidden="true"></i>
                                     <h4>Various Versions</h4> 
                                 </div>
@@ -316,7 +317,7 @@
                 <h2>Price Plan</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in volutpat elit. Class aptent taciti.</p>
                 <div class="row">
-                    <div class="price-deal">
+                    <div class="price-deal" >
                         <h3>Stander</h3>
                         <span class="pricetotal">$10</span>
                         <P>Per Month</P>
@@ -405,22 +406,22 @@
                     <h2>Our Sponsors</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                     <div class="row">
-                        <div class="client-holder">
+                        <div class="client-holder" data-aos-duration="600" data-aos="zoom-in">
                             <img src="imgs/client-1.png" alt="">
                         </div>
-                        <div class="client-holder">
+                        <div class="client-holder" data-aos-duration="600" data-aos="zoom-in">
                             <img src="imgs/client-2.png" alt="">
                         </div>
-                        <div class="client-holder">
+                        <div class="client-holder" data-aos-duration="600" data-aos="zoom-in">
                             <img src="imgs/client-3.png" alt="">
                         </div>
-                        <div class="client-holder">
+                        <div class="client-holder" data-aos-duration="600" data-aos="zoom-in">
                             <img src="imgs/client-4.png" alt="">
                         </div>
-                        <div class="client-holder">
+                        <div class="client-holder" data-aos-duration="600" data-aos="zoom-in">
                             <img src="imgs/client-5.png" alt="">
                         </div>
-                        <div class="client-holder">
+                        <div class="client-holder" data-aos-duration="600" data-aos="zoom-in">
                             <img src="imgs/client-6.png" alt="">
                         </div>
                     </div>
@@ -481,5 +482,10 @@
     </footer>
 <script src="Js/jquery-3.3.1.min.js"></script>
 <script src="Js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="Js/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
