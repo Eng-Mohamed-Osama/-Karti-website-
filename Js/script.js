@@ -25,7 +25,8 @@ $(document).ready(function() {
         $(this).addClass("active").siblings().removeClass("active");
 
     });
-     $("#Portfolio ul li ").on("click", function(e) {
+
+    $("#Portfolio ul li ").on("click", function(e) {
 
          e.preventDefault();
     //     console.log($('.' + $(this).data('type')));
@@ -43,6 +44,8 @@ $(document).ready(function() {
         scrollTop: 0
 
         }, 1200);
+
+        $("#header ul li.main").addClass("act").siblings().removeClass("act");
 
     });
 });
