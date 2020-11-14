@@ -151,6 +151,7 @@ h2::before {
 }
 #Creativity .creative-contact{
     width: 49%;
+    margin-bottom: 70px;
 }
 #Creativity .creative-cards{
     width: 49%;
@@ -161,7 +162,7 @@ h2::before {
 }
 #Creativity .creative-cards .card{
     background-color: var(--main-color);
-    width: 100%;
+    /* width: 100%; */
     margin-bottom: 30px;
     padding: 50px 10px;
     color: #fff;
@@ -195,16 +196,16 @@ h2::before {
     color: #a2a2a2;
 }
 #Creativity .black{
-    background-color: rgba(0, 0, 0, 0.85);
-    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* display: flex;
     flex-wrap: wrap;
-    margin: 50px auto;
+    margin: 50px auto; */
 }
 #Creativity .black .head{
-    width: 25%;
+     /* width: 25%; */
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center; 
     font-size: 35px;
     color: #fff;
     padding: 50px 0;
@@ -238,13 +239,14 @@ h2::before {
     font-size: 26px;
     margin: 20px auto;
 }
-#Creativity .black .divo{
-    display: flex;
+/* #Creativity .black .divo{
+     /* display: flex;
     justify-content: space-between;
-    width: 75%;
-}
+    width: 75%;  */
+
 #Creativity .black .divo .card-but{
-    width: 30%;
+    /* width: 30%; */
+    display: inline-block;
     background-color: var(--main-color);
     text-align: center;
     color: #fff;
@@ -304,7 +306,7 @@ h2::before {
     justify-content: space-between;
 }
 #WorldBetter .img-holder{
-    flex: 0 0 50%;
+    /* flex: 0 0 50%; */
     position: relative;
 
 }
@@ -320,10 +322,10 @@ h2::before {
     z-index: -1;
     margin-top: 20px;
 }
-#WorldBetter .content-holder{
-    flex: 0 0 48%;
+/* #WorldBetter .content-holder{
+    /* flex: 0 0 48%; */
 
-}
+
 #WorldBetter .content-holder h2{
     font-size: 40px;
     position:relative;
@@ -388,6 +390,7 @@ h2::before {
     font-size: 40px;
     position: relative;
     margin-bottom: 10px;
+    display: block;
 }
 #Projects .divcolor h2::before {
     background-position: right;
@@ -395,8 +398,9 @@ h2::before {
     width: 75%;
 }
 #Projects .divcolor p{
-    margin: 10px 0 20px 0;
+    margin: 10px 0 20px 10px;
     font-size: 12px;
+    display: block;
 }
 #Projects .divcolor .info-holder{
     display: flex;
@@ -415,9 +419,9 @@ h2::before {
     font-size: 30px;
     color: var(--main-color);
 }
-#Projects .divcolor .info-holder .content-holder p{
+/* #Projects .divcolor .info-holder .content-holder p{
 
-}
+} */
 
 #Projects .divcolor .img-holder img{
     width: 100%;
@@ -478,7 +482,7 @@ h2::before {
 }
 .active{
     background-color:#e71329 ;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 /* ************* style for the img-holder layer************* */
 #Portfolio  .portfolio-divs .img-holder {
@@ -1095,10 +1099,25 @@ h2::before {
 }
 /* ******************* Footer ******************* */
 footer{
-    padding: 35px 0 ;
+    padding: 10px 0 ;
     background-color: var(--main-color);
     color: #fff;
     text-align: center;
     font-size: 15px;
     margin-top: -7px;
 }
+footer p{
+    margin-bottom: 0;
+    font-size: 12px;
+}
+/* ******************* General ******************* */
+button{
+    background:none;
+    transition: all .2s ease-in-out;
+}
+button:hover{
+    background-color: #ed2237;
+    box-shadow: 1px 1px 1px 1px black;
+    transition: all .2s ease-in-out;
+}
+

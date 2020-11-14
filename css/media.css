@@ -5,7 +5,31 @@
     #Price .price-holder .price-deal{
         flex:0 0 30%;
     }
+    /* .divcolor.col-lg-6{
+        width: 100% !important;
+        flex : 0 0 100%;
+        max-width: 100% !important;
+        flex : 0 0 100% !important;
+    } */
 }
+@media (min-width : 990px) and (max-width : 1390px){
+
+    .divcolor.col-lg-6{
+        width: 100% !important;
+        flex : 0 0 100%;
+        max-width: 100% !important;
+        flex : 0 0 100% !important;
+    }
+}
+@media (min-width : 500px) and (max-width : 750px){
+
+    #header .headder-info {
+        margin: 55% auto;
+    }
+}
+
+
+
 @media (max-width : 900px){
     #Portfolio  .portfolio-divs{
         flex: 0 0 50%;
