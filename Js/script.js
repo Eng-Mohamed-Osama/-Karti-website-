@@ -20,7 +20,7 @@ $(document).ready(function() {
 
     });
 
-    $(".navbar-brand").on("click", function() {
+    $(".inner-logo").on("click", function() {
 
         $("html,body").animate({
 

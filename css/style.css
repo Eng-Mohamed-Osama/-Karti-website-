@@ -76,17 +76,29 @@ h2::before {
 #header .logo{
     font-size: 18px;
     width: 50%;
+    
+}
+#header .logo .inner-logo{
+    color: #000000;
+    cursor: pointer;
+}
+#header .logo .inner-logo:hover{
+    color: #ed2237;
+    font-weight: 700;
+    transition: all .2s ease;
+    cursor: pointer;
 }
 #header ul li {
     display: inline-block;
     color: #000000;
     margin-left: 20px;
     position: relative;
+    cursor: pointer;
 }
 #header ul li.act::after{
     position: absolute;
     content: "";
-    top: 90%;
+    top: 99%;
     left: 0;
     height: 2px;
     right: 80%;
