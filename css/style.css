@@ -88,7 +88,7 @@ h2::before {
     content: "";
     top: 90%;
     left: 0;
-    height: 1px;
+    height: 2px;
     right: 80%;
     animation: movingBorder 1.5s infinite;
     background-color: var(--main-color);
