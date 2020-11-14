@@ -368,7 +368,8 @@ h2::before {
     background-attachment: fixed;
     background-size: 70%;
     background-position: 140%;
-    flex: 0 0 45%;
+    flex: 0 0 41.6%;
+    flex-wrap: nowrap;
     background-repeat: no-repeat;
 }
 #Projects .project-id{
