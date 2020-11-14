@@ -367,8 +367,8 @@ h2::before {
     background-image: url(../imgs/primg.jpg);
     background-attachment: fixed;
     background-size: 70%;
-    background-position: 125%;
-    flex: 0 040%;
+    background-position: 140%;
+    flex: 0 0 45%;
     background-repeat: no-repeat;
 }
 #Projects .project-id{

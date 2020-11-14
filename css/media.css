@@ -12,9 +12,9 @@
         flex : 0 0 100% !important;
     } */
 }
-@media (min-width : 990px) and (max-width : 1390px){
+@media (min-width : 800px) and (max-width : 1420px){
 
-    .divcolor.col-lg-6{
+    .divcolor.col-lg-7{
         width: 100% !important;
         flex : 0 0 100%;
         max-width: 100% !important;
