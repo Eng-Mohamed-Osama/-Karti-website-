@@ -1,82 +1,118 @@
-@media (max-width : 1200px){
-    #Portfolio  .portfolio-divs{
-        flex: 0 0 33.33%;
-    }
-    #Price .price-holder .price-deal{
-        flex:0 0 30%;
-    }
-    /* .divcolor.col-lg-6{
+@media (max-width: 1200px) {
+  #Portfolio .portfolio-divs {
+    flex: 0 0 33.33%;
+  }
+  #Price .price-holder .price-deal {
+    flex: 0 0 30%;
+  }
+  /* .divcolor.col-lg-6{
         width: 100% !important;
         flex : 0 0 100%;
         max-width: 100% !important;
         flex : 0 0 100% !important;
     } */
 }
-@media (min-width : 800px) and (max-width : 1420px){
-
-    .divcolor.col-lg-7{
-        width: 100% !important;
-        flex : 0 0 100%;
-        max-width: 100% !important;
-        flex : 0 0 100% !important;
-    }
+@media (min-width: 800px) and (max-width: 1420px) {
+  .divcolor.col-lg-7 {
+    width: 100% !important;
+    flex: 0 0 100%;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
 }
-@media (min-width : 500px) and (max-width : 750px){
+@media (min-width: 500px) and (max-width: 750px) {
+  #header .headder-info {
+    margin: 55% auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  #header ul li.act::after {
+    top: 67%;
+  }
+  #header .headder-info {
+    margin: 120% auto;
+  }
+  #header .headder-info h3 {
+    /* flex: 0 0 100%; */
 
-    #header .headder-info {
-        margin: 55% auto;
-    }
+    font-size: 14px;
+  }
+  #header .headder-info h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #header .headder-info {
+    margin: 140% auto;
+  }
+  #header .headder-info h3 {
+    /* flex: 0 0 100%; */
+
+    font-size: 14px;
+  }
+  #header .headder-info h1 {
+    max-width: 70%;
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 992px) {
+  #header .headder-info {
+    margin: 55% auto;
+  }
+  #header .headder-info h3 {
+    /* flex: 0 0 100%; */
+
+    font-size: 14px;
+  }
+  #header .headder-info h1 {
+    max-width: 100%;
+    font-size: 20px;
+  }
 }
 
-
-
-@media (max-width : 900px){
-    #Portfolio  .portfolio-divs{
-        flex: 0 0 50%;
-    }
-    #Price .price-holder .price-deal{
-        flex:0 0 100%;
-        margin-bottom: 50px;
-    }
-    #contact .contacts .contact-form{
-        flex:0 0 100%;
-    }
-    #contact .contacts .contact-info{
-        margin-top: 20px;
-        flex:0 0 100%;
-    } 
-    #service .services .service-card {
-        flex: 0 0 100%;
-        margin-top: 100px;
-        
-    }
-    #service .services .service-card .icon{
-        left: calc(47% - 15px);
-    }
+@media (max-width: 900px) {
+  #Portfolio .portfolio-divs {
+    flex: 0 0 50%;
+  }
+  #Price .price-holder .price-deal {
+    flex: 0 0 100%;
+    margin-bottom: 50px;
+  }
+  #contact .contacts .contact-form {
+    flex: 0 0 100%;
+  }
+  #contact .contacts .contact-info {
+    margin-top: 20px;
+    flex: 0 0 100%;
+  }
+  #service .services .service-card {
+    flex: 0 0 100%;
+    margin-top: 100px;
+  }
+  #service .services .service-card .icon {
+    left: calc(47% - 15px);
+  }
 }
-@media (max-width : 768px){
-    #Portfolio  .portfolio-divs{
-        flex: 0 0 100%;
-    }
-    #Price .price-holder .price-deal{
-        flex:0 0 100%;
-        margin-bottom: 50px;
-
-    }
-    #contact .contacts .contact-form{
-        flex:0 0 100%;
-    }
-    #contact .contacts .contact-info{
-        flex:0 0 100%;
-        margin-top: 20px;
-
-    }
-    #service .services .service-card {
-        flex: 0 0 100%;
-        margin-top: 100px;
-    }
-    #service .services .service-card .icon{
-        left: calc(47% - 15px);
-
-    }
+@media (max-width: 768px) {
+  #Portfolio .portfolio-divs {
+    flex: 0 0 100%;
+  }
+  #Price .price-holder .price-deal {
+    flex: 0 0 100%;
+    margin-bottom: 50px;
+  }
+  #contact .contacts .contact-form {
+    flex: 0 0 100%;
+  }
+  #contact .contacts .contact-info {
+    flex: 0 0 100%;
+    margin-top: 20px;
+  }
+  #service .services .service-card {
+    flex: 0 0 100%;
+    margin-top: 100px;
+  }
+  #service .services .service-card .icon {
+    left: calc(47% - 15px);
+  }
 }
